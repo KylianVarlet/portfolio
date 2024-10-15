@@ -118,11 +118,14 @@ img.tete {
 img.ban {
     display: block;
     margin: 0 auto;
+    width: 60%; /* Prendre 60 % de la largeur de l'écran */
+    height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
     object-fit: cover; /* Assurez-vous que l'image remplit le conteneur sans déformation */
-    border-radius: 10px; /* Rend l'image parfaitement ronde */
+    border-radius: 10px; /* Bord arrondi si désiré */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.4s ease; /* Animation au survol */
 }
+
 img:hover {
     transform: scale(1.1); /* Agrandissement de l'image au survol */
 }
