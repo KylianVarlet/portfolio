@@ -57,10 +57,14 @@ p {
 }
 
 /* Style de la bannière dans le footer */
-footer {
-    text-align: center;
-    margin-top: 30px;
+/* Style de la bannière dans le footer */
+footer img {
+    width: 100%; /* Prendre toute la largeur disponible */
+    height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
+    border-radius: 10px; /* Bord arrondi si désiré */
+    texte-align: center;
 }
+
 
 footer img {
     border-radius: 10px;
