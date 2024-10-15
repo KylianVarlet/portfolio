@@ -62,7 +62,7 @@ footer img {
     width: 100%; /* Prendre toute la largeur disponible */
     height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
     border-radius: 10px; /* Bord arrondi si désiré */
-    texte-align: center;
+    text-align: center;
 }
 
 
