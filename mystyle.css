@@ -1,0 +1,131 @@
+/* Réinitialisation des marges et paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général pour le corps du site */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Style du header */
+h1 {
+    text-align: center;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+
+
+/* Section principale */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des paragraphes */
+p {
+    margin-bottom: 20px;
+}
+
+/* Liste des compétences, formations et projets */
+.comp ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.comp li{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.lis {
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Style de la bannière dans le footer */
+footer {
+    text-align: center;
+    
+}
+
+}
+
+footer img {
+    border-radius: 10px;
+	height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
+    border-radius: 10px; /* Bord arrondi si désiré */
+}
+
+/* Alignement horizontal pour les sections */
+.formations ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.formations li {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #bdc3c7;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    img {
+        width: 80%; /* Assurer que l'image ne dépasse pas l'écran */
+    }
+
+    .comp li, .compformations li {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+/* Style pour les images */
+img.tete {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Assurez-vous que la largeur et la hauteur sont égales */
+    height: 150px; /* Mettez la hauteur à la même valeur que la largeur */
+    object-fit: cover; /* Assurez-vous que l'image remplit le conteneur sans déformation */
+    border-radius: 50%; /* Rend l'image parfaitement ronde */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease; /* Animation au survol */
+}
+
+img.ban {
+    display: block;
+    margin: 0 auto;
+    width: 60%; /* Prendre 60 % de la largeur de l'écran */
+    height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
+    object-fit: cover; /* Assurez-vous que l'image remplit le conteneur sans déformation */
+    border-radius: 10px; /* Bord arrondi si désiré */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease; /* Animation au survol */
+}
+
+img:hover {
+    transform: scale(1.1); /* Agrandissement de l'image au survol */
+}
