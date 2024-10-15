@@ -59,14 +59,15 @@ p {
 /* Style de la bannière dans le footer */
 footer {
     text-align: center;
-    height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
-    border-radius: 10px; /* Bord arrondi si désiré */
+    
 }
 
 }
 
 footer img {
     border-radius: 10px;
+	height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
+    border-radius: 10px; /* Bord arrondi si désiré */
 }
 
 /* Alignement horizontal pour les sections */
