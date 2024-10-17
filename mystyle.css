@@ -61,6 +61,12 @@ p {
     text-decoration: underline;
 }
 
+.li3 {
+    font-weight: bold;
+    color: #34495e;
+    texte_align: center;
+}
+
 /* Style de la bannière dans le footer */
 footer {
     text-align: center;
