@@ -62,9 +62,9 @@ p {
 }
 
 .li3 {
+    text_align: center;
     font-weight: bold;
     color: #34495e;
-    text_align: center;
 }
 
 /* Style de la bannière dans le footer */
