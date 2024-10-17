@@ -56,6 +56,11 @@ p {
     color: #34495e;
 }
 
+.entete {
+	font-style: italic;
+	text-decoration: underline;
+}
+
 /* Style de la bannière dans le footer */
 footer {
     text-align: center;
