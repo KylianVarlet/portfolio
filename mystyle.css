@@ -1,10 +1,42 @@
+
 /* Réinitialisation des marges et paddings par défaut */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Style pour le header */
+header {
+	max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky; /* Permet au header de rester en haut */
+    top: 0; /* Fixé au haut de la page */
+    z-index: 1000; /* Pour s'assurer qu'il reste au-dessus des autres éléments */
+}
 
+/* Style pour l'image de profil dans le header */
+header img.tete {
+    width: 100px; /* Ajuster la taille pour qu'elle soit plus petite dans le header */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Toujours en forme ronde */
+    margin-right: 20px; /* Espace entre l'image et le titre */
+}
+
+/* Style du titre dans le header */
+header h1 {
+    font-size: 2rem;
+    color: #2C3E50;
+    margin: 0;
+}
 /* Style général pour le corps du site */
 body {
     font-family: 'Arial', sans-serif;
@@ -21,7 +53,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-
+a, a:visited {
+    color: #0000EE; /* Même couleur que le lien initial */
+}
 
 /* Section principale */
 main {
@@ -136,8 +170,19 @@ img.ban {
 img:hover {
     transform: scale(1.1); /* Agrandissement de l'image au survol */
 }
+/* Style pour aligner les logos en ligne et leur donner la même taille */
+img.log {
+    display: inline-block; /* Met chaque logo en ligne */
+    width: 40px; /* Taille fixe pour tous les logos */
+    height: 40px; /* Fixe la hauteur pour qu'ils soient uniformes */
+    margin-right: 10px; /* Ajoute un espacement entre les images */
+	border-radius: 10px;
+    object-fit: contain; /* Assure que l'image s'adapte bien à la taille sans être déformée */
+    vertical-align: middle; /* Aligne les logos verticalement sur la même ligne */
+}
+
 .li3 {
-    text_align: center;
+    text-align: center;
     font-weight: bold;
     color: #34495e;
 }
