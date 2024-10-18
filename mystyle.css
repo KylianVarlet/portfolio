@@ -61,11 +61,7 @@ p {
     text-decoration: underline;
 }
 
-.li3 {
-    text_align: center;
-    font-weight: bold;
-    color: #34495e;
-}
+
 
 /* Style de la bannière dans le footer */
 footer {
@@ -139,4 +135,9 @@ img.ban {
 
 img:hover {
     transform: scale(1.1); /* Agrandissement de l'image au survol */
+}
+.li3 {
+    text_align: center;
+    font-weight: bold;
+    color: #34495e;
 }
